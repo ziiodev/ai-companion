@@ -1,11 +1,13 @@
+import { UserButton } from '@clerk/nextjs'
 import React from 'react'
 
 const RootPage = () => {
   return (
-    <div>RootPage</div>
+    <div>
+      RootPage
+    </div>
   )
 }
 
 export default RootPage
 
-16:47
