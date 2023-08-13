@@ -9,7 +9,7 @@ import { Button } from "./ui/button";
 
 interface ChatFormProps {
   input: string;
-  handleInputChange: (e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLAreaElement>) => void;
+  handleInputChange: (e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>) => void;
   onSubmit: (e: FormEvent<HTMLFormElement>, chatRequestOptions?: ChatRequestOptions | undefined) => void;
   isLoading: boolean;
 }
